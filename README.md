@@ -91,7 +91,7 @@ goose -dir ./sql/schema postgres "your_connection_string" down
 register johndoe
 login johndoe
 addfeed golangweekly https://golangweekly.com/rss
-follow
+follow https://golangweekly.com/rss
 agg 1m
 browse 5
 ```
