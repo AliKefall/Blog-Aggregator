@@ -1,10 +1,10 @@
-# 🐊 Gator – Blog Aggregator CLI
+#  Gator – Blog Aggregator CLI
 
 Gator is a terminal-based blog RSS feed aggregator and PostgreSQL explorer. It allows developers to interact with their database and RSS feeds directly from the command line, without needing to use a GUI like pgAdmin.
 
 ---
 
-## 🚀 Features
+##  Features
 
 * **Database Exploration:** Browse tables, schemas, and data directly from your terminal.
 * **Simplified Querying:** Run essential queries without writing raw SQL.
@@ -14,14 +14,14 @@ Gator is a terminal-based blog RSS feed aggregator and PostgreSQL explorer. It a
 
 ---
 
-## 🛠 Requirements
+##  Requirements
 
 * Go (Golang)
 * PostgreSQL
 
 ---
 
-## ⚙️ Environment Setup
+##  Environment Setup
 
 1. Create a `.gatorconfig.json` file in your home directory.
 2. Add the following content with your own connection information:
@@ -37,7 +37,7 @@ Gator is a terminal-based blog RSS feed aggregator and PostgreSQL explorer. It a
 
 ---
 
-## 🪡 Optional: Database Migration with Goose
+##  Optional: Database Migration with Goose
 
 ### Install Goose:
 
@@ -59,7 +59,7 @@ goose -dir ./sql/schema postgres "your_connection_string" down
 
 ---
 
-## 📁 Config File Location
+##  Config File Location
 
 | OS          | Path                                      |
 | ----------- | ----------------------------------------- |
@@ -68,7 +68,7 @@ goose -dir ./sql/schema postgres "your_connection_string" down
 
 ---
 
-## 📖 CLI Commands
+##  CLI Commands
 
 | Command                | Description                                              |
 | ---------------------- | -------------------------------------------------------- |
@@ -85,7 +85,7 @@ goose -dir ./sql/schema postgres "your_connection_string" down
 
 ---
 
-## 🎯 Example Usage
+##  Example Usage
 
 ```bash
 register johndoe
@@ -98,7 +98,7 @@ browse 5
 
 ---
 
-## 📃 Notes
+##  Notes
 
 * All commands are run from the terminal.
 * Goose is optional but recommended for managing schema changes.
